@@ -1,0 +1,4 @@
+playwright==1.49.0
+Flask==3.0.2
+streamlit==1.40.0
+langgraph==0.2.0

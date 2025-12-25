@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-12-25T12:58:29.661645",
+  "actions": [
+    {
+      "action": "goto",
+      "target": "http://127.0.0.1:5000/login"
+    },
+    {
+      "action": "fill",
+      "target": "#username",
+      "value": "test_user"
+    },
+    {
+      "action": "fill",
+      "target": "#password",
+      "value": "secret"
+    },
+    {
+      "action": "click",
+      "target": "#submit"
+    },
+    {
+      "action": "assert_contains",
+      "target": "#welcome",
+      "value": "welcome"
+    }
+  ],
+  "success": true,
+  "stdout": "",
+  "stderr": "",
+  "returncode": 0
+}
